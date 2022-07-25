@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+html, body {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+body {
+    background: skyblue;
+}    
+
+#main-container {
+    padding: 20px;
+}    
+
+#first-container {
+    background-color: rgb(10, 128, 197);
+    padding: 15px;
+    width: 80%;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+
+#second-container{
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    
+}
+
+button {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.btn1 {
+    width: 100px;
+    background: rgb(142, 142, 172);
+}
+
+.btn2 {
+    width: 100%;
+    
+}
+
+.btn2:hover, .btn1:hover{
+    border-radius: 20px;
+    border-color: rgb(148, 125, 125);
+    background: rgb(148, 125, 125);
+}
+
+#bottom {
+    width: 100%;
+    background: grey;
+    position:fixed;
+    bottom: 0px;
+    text-align: center;
+    padding: 8px;
+}
